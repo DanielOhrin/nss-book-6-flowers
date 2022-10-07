@@ -1,0 +1,215 @@
+{
+    "flowers": [
+        {
+            "id": 1,
+            "commonName": "Tulip",
+            "color": "Purple"
+        },
+        {
+            "id": 2,
+            "commonName": "Rose",
+            "color": "Red"
+        },
+        {
+            "id": 3,
+            "commonName": "Sunflower",
+            "color": "Yellow"
+        },
+        {
+            "id": 4,
+            "commonName": "Daisy",
+            "color": "White"
+        },
+        {
+            "id": 5,
+            "commonName": "Iris",
+            "color": "Blue"
+        }
+    ],
+    "retailers": [
+        {
+            "id": 1,
+            "name": "Boquet Banquet",
+            "city": "Hermitage",
+            "state": "Tennessee",
+            "address": "4175 BlankBlank Avenue",
+            "distributorId": 3
+        },
+        {
+            "id": 2,
+            "name": "Flower Shop",
+            "city": "Original",
+            "state": "Missouri",
+            "address": "5714 KlanbKlanb Drive",
+            "distributorId": 2
+        },
+        {
+            "id": 3,
+            "name": "Flowerz Bonanza",
+            "city": "Cookeville",
+            "state": "Connecticut",
+            "address": "1234 Real Address Street",
+            "distributorId": 3
+        },
+        {
+            "id": 4,
+            "name": "Out of Ideas",
+            "city": "Nashville",
+            "state": "Tennessee",
+            "address": "1057 Caldwell Drive",
+            "distributorId": 2
+        },
+        {
+            "id": 5,
+            "name": "Los Flores Hermanos",
+            "city": "Albuquerque",
+            "state": "New Mexico",
+            "address": "308 Negra Arroyo Lane",
+            "distributorId": 1
+        }
+    ],
+    "distributors": [
+        {
+            "id": 1,
+            "name": "Totally a Laundromat®",
+            "city": "Albuquerque",
+            "state": "New Mexico",
+            "address": "1548 Thaowid Drive"
+        },
+        {
+            "id": 2,
+            "name": "Flowers and Co.®",
+            "city": "Dolor sit",
+            "state": "Massachussetts", 
+            "address": "1572 Dolor sit Avenue"    
+        },
+        {
+            "id": 3,
+            "name": "We Grow Things®",
+            "city": "Flowersville", 
+            "state": "New York",
+            "address": "In New York"    
+        }
+    ],
+    "nurseries": [
+        {
+            "id": 1,
+            "name": "Sit Amet",
+            "city": "Dit Amet", 
+            "state": "Pit Amet",
+            "address": "Bit Amet"    
+        },
+        {
+            "id": 2,
+            "name": "Soda",
+            "city": "Boda", 
+            "state": "Doda",
+            "address": "Coda"    
+        },
+        {
+            "id": 3,
+            "name": "Test",
+            "city": "Nest", 
+            "state": "Pest",
+            "address": "Dest"    
+        },
+        {
+            "id": 4,
+            "name": "Lorem",
+            "city": "Dorem", 
+            "state": "Sorem",
+            "address": "Borem"    
+        },
+        {
+            "id": 5,
+            "name": "Ipsum",
+            "city": "Dipsum", 
+            "state": "Sipsum",
+            "address": "Bipsum"    
+        }
+    ],
+    "nurseryFlowers": [
+        {
+            "id": 1,
+            "nurseryId": 1,
+            "flowerId": 2
+        },
+        {
+            "id": 2,
+            "nurseryId": 1,
+            "flowerId": 4
+        },
+        {
+            "id": 3,
+            "nurseryId": 2,
+            "flowerId": 3
+        },
+        {
+            "id": 4,
+            "nurseryId": 2,
+            "flowerId": 5
+        },
+        {
+            "id": 5,
+            "nurseryId": 3,
+            "flowerId": 3
+        },
+        {
+            "id": 6,
+            "nurseryId": 3,
+            "flowerId": 1
+        },
+        {
+            "id": 7,
+            "nurseryId": 4,
+            "flowerId": 2
+        },
+        {
+            "id": 8,
+            "nurseryId": 4,
+            "flowerId": 5
+        },
+        {
+            "id": 9,
+            "nurseryId": 5,
+            "flowerId": 4
+        },
+        {
+            "id": 0,
+            "nurseryId": 5,
+            "flowerId": 1
+        }
+    ],
+    "distributorNurseries": [
+        {
+            "id": 1,
+            "distributorId": 2,
+            "nurseryId": 3
+        },
+        {
+            "id": 2,
+            "distributorId": 3,
+            "nurseryId": 2
+        },
+        {
+            "id": 3,
+            "distributorId": 1,
+            "nurseryId": 1
+        },
+        {
+            "id": 4,
+            "distributorId": 1,
+            "nurseryId": 4
+        },
+        {
+            "id": 5,
+            "distributorId": 3,
+            "nurseryId": 5
+        },
+        {
+            "id": 6,
+            "distributorId": 2,
+            "nurseryId": 2
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+#container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+#container > section {
+    width: 50%;
+    text-align: center;
+}
+
+#retailers > h4 {
+    font-size: large;
+    height: fit-content;
+    margin: 0px;
+}
+
+#retailers {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.retailer, .retailer-div {
+    height: fit-content;
+    margin-top: 0px;
+    margin-bottom: 0.75rem;
+}
+
+.distributor, .nursery {
+    margin: 0;
+    padding: 0;
+}
+
+.nursery {
+    margin-bottom: 1rem;
+}
+
+h4 {
+    text-decoration: underline;
+}
+
+.retailer-div {
+    border: 0.2rem groove aqua;
+    width: 50%;
+    border-radius: 1.25rem;
+}
